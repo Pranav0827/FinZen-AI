@@ -182,7 +182,41 @@ Append to the `RAW_DATA` string in CSV format:
 ```
 user16,1,2024,50000,6500,12000,2000,2400,1600,4000,800,400,3200,1400
 ```
-
+* System Architecture
+          ┌─────────────────────────┐
+          │        Users (Gen-Z)    │
+          └────────────┬──────────┘
+                       │
+        ┌──────────────┴──────────────┐
+        │       User Interface         │
+        │ (Streamlit Dashboard + Chat)│
+        └──────────────┬──────────────┘
+                       │
+         ┌─────────────┴─────────────┐
+         │     Data Processing Layer  │
+         │ (Pandas, NumPy, NLP)      │
+         └─────────────┬─────────────┘
+                       │
+         ┌─────────────┴─────────────┐
+         │  AI & Predictive Analytics │
+         │ (Scoring, Forecasting,     │
+         │  Goal Recommendations)     │
+         └─────────────┬─────────────┘
+                       │
+         ┌─────────────┴─────────────┐
+         │   Visualization Layer      │
+         │   (Plotly Charts, Graphs) │
+         └─────────────┬─────────────┘
+                       │
+         ┌─────────────┴─────────────┐
+         │ Multilingual AI Advisor    │
+         │ (English, Hindi, Marathi) │
+         └─────────────┬─────────────┘
+                       │
+         ┌─────────────┴─────────────┐
+         │      Deployment Layer      │
+         │    (Single Python File)    │
+         └───────────────────────────┘
 ##  Contributing
 
 1. Fork the repository
