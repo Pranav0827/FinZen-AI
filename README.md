@@ -1,49 +1,49 @@
 # FinZen AI - Personal Financial Advisor for Gen-Z
 
-🧠 **FinZen AI** is an intelligent personal financial advisor designed specifically for Gen-Z users. This single-file Streamlit application provides comprehensive financial analytics, predictive insights, goal planning, and AI-powered recommendations based on transaction data.
+ **FinZen AI** is an intelligent personal financial advisor designed specifically for Gen-Z users. This single-file Streamlit application provides comprehensive financial analytics, predictive insights, goal planning, and AI-powered recommendations based on transaction data.
 
 ![FinZen AI](https://img.shields.io/badge/FinZen-AI-blue?style=for-the-badge&logo=streamlit)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red?style=flat-square&logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-## ✨ Features
+##  Features
 
-### 📊 **Comprehensive Dashboard**
+###  **Comprehensive Dashboard**
 - **Financial Health Score** (0-100) with detailed breakdown
 - **Credit Score** (300-900) based on transaction patterns
 - Real-time metrics: Income, Savings, Expenses, Savings Rate
 - Interactive charts and visualizations
 
-### 🔍 **Transaction Analysis**
+###  **Transaction Analysis**
 - 12-month spending breakdown by category
 - Benchmarking against ideal spending ratios
 - Savings trend analysis with volatility metrics
 - Expense radar charts
 
-### 📈 **Predictive Analytics**
+### **Predictive Analytics**
 - AI-powered savings forecasting (3-5 year projections)
 - Risk assessment based on savings consistency
 - Linear regression models for trend analysis
 
-### 🎯 **Goal Planning**
+###  **Goal Planning**
 - Custom savings goals with progress tracking
 - SIP (Systematic Investment Plan) recommendations
 - Emergency fund calculations
 - Goal prioritization
 
-### 🔮 **What-If Simulator**
+###  **What-If Simulator**
 - Interactive scenario planning
 - Impact analysis of spending changes
 - SIP growth projections with CAGR calculations
 
-### 💬 **AI Financial Advisor**
+###  **AI Financial Advisor**
 - Multilingual support (English, Hindi, Marathi)
 - Personalized recommendations
 - Conversational interface
 - Smart responses based on user data
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Streamlit with custom CSS (Dark neon-green theme)
 - **Data Processing**: Pandas, NumPy
@@ -51,7 +51,7 @@
 - **AI/ML**: Custom algorithms for scoring and predictions
 - **Deployment**: Single-file Python application
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -81,7 +81,7 @@
    - Open your browser to `http://localhost:8501`
    - Login with any of the demo accounts below
 
-## 👥 Demo User Accounts
+##  Demo User Accounts
 
 The app includes 15 demo user accounts with realistic financial data:
 
@@ -103,7 +103,7 @@ The app includes 15 demo user accounts with realistic financial data:
 | Rohit Sharma | rohit.sharma@email.com | rohit123 | Sports Coach | Indore | ₹40k-48k |
 | Yuvraj Pawar | yuvraj.pawar@email.com | yuvraj123 | Graphic Designer | Pune | ₹45k-54k |
 
-## 📱 Usage Guide
+##  Usage Guide
 
 ### 1. **Login**
 - Enter your email and password
@@ -139,7 +139,7 @@ The app includes 15 demo user accounts with realistic financial data:
 - Get personalized advice
 - Switch between languages
 
-## 🎨 UI Features
+##  UI Features
 
 - **Dark Theme**: Modern neon-green aesthetic
 - **Responsive Design**: Works on desktop and mobile
@@ -147,7 +147,7 @@ The app includes 15 demo user accounts with realistic financial data:
 - **Multilingual Support**: English, Hindi, Marathi
 - **Real-time Updates**: Dynamic calculations and visualizations
 
-## 📊 Scoring Methodology
+##  Scoring Methodology
 
 ### Financial Health Score (0-100)
 - **Savings Rate** (40 pts): Monthly savings as % of income
@@ -162,7 +162,7 @@ The app includes 15 demo user accounts with realistic financial data:
 - **New Credit** (10 pts): Stability of borrowing patterns
 - **Credit Mix** (10 pts): Diversity of financial activities
 
-## 🔧 Customization
+##  Customization
 
 ### Adding New Users
 Edit the `USERS` dictionary in `app.py`:
@@ -183,7 +183,7 @@ Append to the `RAW_DATA` string in CSV format:
 user16,1,2024,50000,6500,12000,2000,2400,1600,4000,800,400,3200,1400
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -191,24 +191,13 @@ user16,1,2024,50000,6500,12000,2000,2400,1600,4000,800,400,3200,1400
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+##  Acknowledgments
 
-## 🙏 Acknowledgments
-
-- Built with ❤️ for Gen-Z financial empowerment
+- Built for Gen-Z financial empowerment
 - Inspired by modern fintech applications
 - Uses open-source libraries: Streamlit, Pandas, Plotly
 
-## 📞 Support
-
-For questions or support:
-- Open an issue on GitHub
-- Check the AI Advisor in-app for instant help
-- Email: support@finzen.ai (demo only)
-
----
 
 **FinZen AI** - Your AI-powered financial companion for a brighter financial future! 🚀</content>
 <parameter name="filePath">README.md
