@@ -475,7 +475,7 @@ def credit_score(udf):
     mix = 10 if inv > inc * 0.1 and sr > 15 else 5
 
     total_score = 300 + pay_hist + credit_util + hist_len + new_credit + mix
-    total_score = min(0, max(300, round(total_score)))
+    total_score = min(900, max(300, round(total_score)))
 
     grade = ("Excellent 🌟" if total_score >= 800 else
              "Very Good 👍" if total_score >= 700 else
